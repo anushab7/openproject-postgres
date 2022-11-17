@@ -1,16 +1,14 @@
 users:
-  - name: openproject
+  - name: anusha
     password: $POSTGRESQL_OPENPROJECT_PASSWORD
     role: superuser
 databases:
   - name: openproject
-    owner: openproject
+    owner: anusha
     tablespace:
       - name: tb1
         location: /appz/data/tb1
     schemas:
       - name: schema1
-        authorised_user: openproject
+        authorised_user: anusha
         search_path: true
-
- 
