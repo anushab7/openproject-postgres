@@ -1,5 +1,5 @@
 users:
-  - name: anusha
+  - name: openproject
     password: $POSTGRESQL_OPENPROJECT_PASSWORD
     role: superuser
 databases:
@@ -10,5 +10,5 @@ databases:
         location: /appz/data/tb1
     schemas:
       - name: schema1
-        authorised_user: anusha
+        authorised_user: openproject
         search_path: true
